@@ -1,15 +1,17 @@
-import { Link } from "react-router-dom";
-  
+import AppLogo from "../Assets/AppLogo.png"
 export default function Header() {
-  return (
-    <div>
-      <h1>Furs N Pets</h1>
-      {/* <nav>
+    return (
+        <div>
+            <div style={{ flexDirection: 'row',flex:1 }}>
+                <h1 style={{fontFamily:'cursive'}}>Furs N Pets</h1>
+                <img style={{ width: '100px', height: '100px' }} src={AppLogo} loading="lazy" alt="logo"></img>
+            </div>
+            {/* <nav>
         <Link to="/">Home</Link> |{" "}
         <Link to="about">About</Link>
         <Link to="contact">Contact Us</Link>
       </nav> */}
-    </div>
-  );
+        </div>
+    );
 }
 

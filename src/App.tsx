@@ -10,7 +10,6 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Dashboard from "./components/Dashboard/Dashboard";
 import PageNotFound from "./components/PageNotFound/PageNotFound"
-// "./components/PageNotFound/PageNotFound";
   
 function App() {
   return (
@@ -24,7 +23,9 @@ function App() {
             <Route path="*" element={<PageNotFound />} />
         </Routes>
         </div>
+        <div style={{}}>
         {/* <Footer /> */}
+        </div>
       </Router>
     </div>
   );

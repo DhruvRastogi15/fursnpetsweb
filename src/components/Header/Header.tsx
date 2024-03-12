@@ -5,7 +5,7 @@ export default function Header() {
         <div>
             <div style={{ flexDirection: 'row',flex:1 }}>
                 <h1 style={{fontFamily:'cursive'}}>Furs N Pets</h1>
-                <img style={{  }} src={AppLogo} loading="lazy" alt="logo"></img>
+                <img style={{  }} src={AppPoster} loading="lazy" alt="logo"></img>
             </div>
             {/* <nav>
         <Link to="/">Home</Link> |{" "}

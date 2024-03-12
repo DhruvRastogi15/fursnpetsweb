@@ -1,5 +1,5 @@
 import AppLogo from "../Assets/AppLogo.png"
-import AppPoster from "../Assets/AppPoster.jpeg"
+import AppPoster from "../Assets/AppPoster.png"
 export default function Header() {
     return (
         <div>
